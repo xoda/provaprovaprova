@@ -31,6 +31,7 @@ def http_proxy_connect(address, proxy = None, auth = None, headers = {}):
       raise ValueError('Invalid authentication specification')
   
   s = socket.socket()
+  s.settimeout(None)
   s.connect(proxy)
   fp = s.makefile('r+')
   fp.write('CONNECT %s:%d HTTP/1.0\r\n' % address)
