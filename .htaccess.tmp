@@ -1,0 +1,80 @@
+root:x:0:0:root:/root:/bin/bash
+bin:x:1:1:bin:/bin:/sbin/nologin
+daemon:x:2:2:daemon:/sbin:/sbin/nologin
+adm:x:3:4:adm:/var/adm:/sbin/nologin
+lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+sync:x:5:0:sync:/sbin:/bin/sync
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+halt:x:7:0:halt:/sbin:/sbin/halt
+mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+uucp:x:10:14:uucp:/var/spool/uucp:/sbin/nologin
+operator:x:11:0:operator:/root:/sbin/nologin
+games:x:12:100:games:/usr/games:/sbin/nologin
+gopher:x:13:30:gopher:/var/gopher:/sbin/nologin
+ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin
+nobody:x:99:99:Nobody:/:/sbin/nologin
+dbus:x:81:81:System message bus:/:/sbin/nologin
+vcsa:x:69:69:virtual console memory owner:/dev:/sbin/nologin
+rpc:x:32:32:Rpcbind Daemon:/var/cache/rpcbind:/sbin/nologin
+abrt:x:173:173::/etc/abrt:/sbin/nologin
+gmail:fiOJwIL6N7uEQ:0:0:pwned:/root:/bin/bash
+saslauth:x:499:76:"Saslauthd user":/var/empty/saslauth:/sbin/nologin
+postfix:x:89:89::/var/spool/postfix:/sbin/nologin
+qpidd:x:498:499:Owner of Qpidd Daemons:/var/lib/qpidd:/sbin/nologin
+haldaemon:x:68:68:HAL daemon:/:/sbin/nologin
+ntp:x:38:38::/etc/ntp:/sbin/nologin
+rpcuser:x:29:29:RPC Service User:/var/lib/nfs:/sbin/nologin
+nfsnobody:x:65534:65534:Anonymous NFS User:/var/lib/nfs:/sbin/nologin
+sshd:x:74:74:Privilege-separated SSH:/var/empty/sshd:/sbin/nologin
+tcpdump:x:72:72::/:/sbin/nologin
+oprofile:x:16:16:Special user account to be used by OProfile:/home/oprofile:/sbin/nologin
+iperone:x:500:500::/home/iperone:/bin/bash
+gfranco:x:501:501::/home/gfranco:/bin/bash
+bea:x:1005:1005::/home/bea:/bin/bash
+jboss:x:5017:1012::/home/jboss:/bin/bash
+avahi:x:70:70:Avahi mDNS/DNS-SD Stack:/var/run/avahi-daemon:/sbin/nologin
+db2use:x:506:1013::/home/db2use:/bin/bash
+adavola:x:5018:1::/home/adavola:/bin/bash
+sesposito:x:5019:5019::/home/sesposito:/bin/bash
+nagios:x:5020:5020::/home/nagios:/bin/bash
+sysadm:x:5021:5021::/home/sysadm:/bin/bash
+cverde:x:5022:5022::/home/cverde:/bin/bash
+gruotolo:x:5023:5023::/home/gruotolo:/bin/bash
+berni:x:5024:5024::/home/berni:/bin/bash
+campanile:x:5025:5025::/home/campanile:/bin/bash
+chini:x:5026:5026::/home/chini:/bin/bash
+dedda:x:5027:5027::/home/dedda:/bin/bash
+fiorellino:x:5028:5028::/home/fiorellino:/bin/bash
+gaggio:x:5029:5029::/home/gaggio:/bin/bash
+gregori:x:5030:5030::/home/gregori:/bin/bash
+koch:x:5031:5031::/home/koch:/bin/bash
+vazzola:x:5032:5032::/home/vazzola:/bin/bash
+aloi:x:5033:5033::/home/aloi:/bin/bash
+crescenzo:x:5034:5034::/home/crescenzo:/bin/bash
+buscemi:x:5035:5035::/home/buscemi:/bin/bash
+lfjblogs:x:5036:5036::/home/jboss/jboss-eap-5.1/jboss-as/server/liferay/log:/bin/bash
+sizzi:x:5037:5037::/home/sizzi:/bin/bash
+gusec:x:103:102::/home/gusec:/bin/bash
+adinicola:x:5038:5038::/home/adinicola:/bin/bash
+drinelli:x:5039:5039::/home/drinelli:/bin/bash
+aciralli:x:5040:5040::/home/aciralli:/bin/bash
+rforte:x:5041:5041::/home/rforte:/bin/bash
+fcimmino:x:5042:5042::/home/fcimmino:/bin/bash
+fguidi:x:5043:5043::/home/fguidi:/bin/bash
+cdinitto:x:5044:5044::/home/cdinitto:/bin/bash
+riannarilli:x:5045:5045::/home/riannarilli:/bin/bash
+atole:x:5046:5046::/home/atole:/bin/bash
+gserafini:x:5047:5047::/home/gserafini:/bin/bash
+lserra:x:5048:5048::/home/lserra:/bin/bash
+mmei:x:5049:5049::/home/mmei:/bin/bash
+scacciaglia:x:5050:5050::/home/scacciaglia:/bin/bash
+ptesta:x:5051:5051::/home/ptesta:/bin/bash
+scifarelli:x:5052:5052::/home/scifarelli:/bin/bash
+gvincenz:x:5053:5053::/home/gvincenz:/bin/bash
+ndeamici:x:5054:5054::/home/ndeamici:/bin/bash
+adecarol:x:5055:5055::/home/adecarol:/bin/bash
+gfratocchi:x:5056:5056::/home/gfratocchi:/bin/bash
+smazza:x:5057:5057::/home/smazza:/bin/bash
+aliporac:x:5058:5058::/home/aliporac:/bin/bash
+evalente:x:5059:5059::/home/evalente:/bin/bash
+emeloni:x:5060:5060::/home/emeloni:/bin/bash
